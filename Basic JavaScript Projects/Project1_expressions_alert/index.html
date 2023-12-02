@@ -7,6 +7,22 @@
         <script src="JS/main.js"></script>
     </head>
     <body>
+        <h1>JavaScript HTML Events</h1>
+        <h2>The onmouseover Attribute</h2>
+
+        <div onmouseover="mOver(this)" onmouseout="mOut(this)" 
+            style="background-color:#385ed9;width:120px;height:20px;padding:40px;">
+            Mouse Over Me</div>
+
+        <script>
+            function mOver(obj) {
+            obj.innerHTML = "Greetings Instructors!"
+            }
+
+            function mOut(obj) {
+            obj.innerHTML = "Mouse Over Me"
+            }
+        </script>
         
     </body>
 </html>
