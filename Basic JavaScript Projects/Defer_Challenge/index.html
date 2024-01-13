@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Scripts cannot see DOM elements below them-->
+        <!--Bulky scripts at the top of the page would normally block the page from loading
+        until they have finished downloading and running-->
+        <!--The defer attribute tells the browser not to wait for the script-->
+        <script defer src="JS/defer.js"></script>
+        <!--The browser continues to process the HTML and build the DOM while the script loads in the background-->
+        <!--The script then runs when the DOM is fully built-->
+    </head>
+    <body>
+        <p id="d1"></p>
+    </body>
+</html>
