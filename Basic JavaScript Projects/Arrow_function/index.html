@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Arrow Function Challenge.</title>
+        
+    </head>
+    <body>
+
+        <h2>Arrow Function Challenge.</h2>
+               
+        <p id="sum"></p>        
+
+    <script>
+        /*You can follow these three easy steps to convert a regular function to an arrow function:
+        1. Replace the function keyword with the variable keyword const
+        2. Add the = symbol after the function name and before the parentheses
+        3. Add the => symbol after the parentheses
+        Usually, a function is never changed after the declaration, so we use the const keyword instead of let.*/
+
+        /*It gets shorter! If the function has only one statement, and the statement returns a value, 
+        you can remove the brackets and the return keyword:*/
+        
+        
+        let addFunction = (a, b) => a + b;
+        document.getElementById("sum").innerHTML = addFunction(4, 5);
+
+    </script> 
+        
+    </body>
+</html>
