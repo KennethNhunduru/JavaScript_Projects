@@ -1,0 +1,116 @@
+body { 
+    margin: 0px; 
+    padding: 0px; 
+    box-sizing: border-box;
+    background-repeat:no-repeat; 
+    background-size:cover;
+} 
+
+.header { 
+    position: sticky; 
+    top: 0; 
+    text-align: center; 
+    background-color: rgb(60, 180, 60); 
+    padding: 20px; 
+} 
+
+.navigation ul { 
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+} 
+
+.navigation li { 
+    display: inline; 
+    margin-right: 10px; 
+} 
+
+.navigation a { 
+    text-decoration: none; 
+    color: #333; 
+}
+
+.content {
+    margin-bottom: 50px;     
+}
+
+.form-container {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+}
+
+form {
+    width:50%;
+}
+
+p {
+    text-align: center;
+}
+
+#menuBG {
+    width: 400px;
+    height: 470px;
+    margin: 10px auto;
+}
+
+#btnOrder {
+    margin:10px 0px 0px 100px;
+    width:100px;
+    height:40px;
+    display:block;
+    margin:0 auto;
+}
+    
+#frmMenu {
+    width:600px;
+    height:200px;
+}
+
+.left {
+    width:200px;
+    height:200px;
+    float:left;
+}
+
+.center {
+    width:200px;
+    height:200px;
+    float:left;
+}
+    
+.right {
+    width:200px;
+    height:200px;
+    float:right;
+}
+
+#totalPrice {
+    width:200px;
+    height:190px;
+    margin:20px auto;
+    float:right;
+} 
+
+#showText {
+    width:200px;
+    height:190px;
+    margin:0px auto;
+    float:left;
+}
+    
+#cart {
+    top:0;margin: 0px auto;
+    width:400px;
+    height:200px;
+}
+    
+.footer { 
+    position:fixed; 
+    bottom:0; 
+    width:100%; 
+    background-color: rgb(60, 180, 60); 
+    padding:10px; 
+    text-align: center; 
+}
+ 
